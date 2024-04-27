@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #9BB0DC;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.mc,
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+}
+
+.input {
+    margin-top: 100px;
+}
+
+button {
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #03308F;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+input {
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+}
+
+#id4,
+#id1 {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+}
+
+#id1 {
+    margin-top: 20px;
+}
+
+#id5,
+#id2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#id5 {
+    height: 60px;
+    width: 60px;
+    margin-left: 25px;
+    background-image: url(thermometer.png);
+}
+
+#id3,
+#id6 {
+    width: 100px;
+    margin-left: 40px;
+    font-size: 1.2rem;
+}
